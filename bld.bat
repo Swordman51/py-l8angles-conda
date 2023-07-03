@@ -1,5 +1,5 @@
 :: Setup env variables
-call setvars.bat
+call ./setvars.bat
 if errorlevel 1 exit 1
 
 :: Create fresh build dir
